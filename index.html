@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eslam Amin · Full-Stack Software Engineer</title>
+    <meta
+      name="description"
+      content="Eslam Amin, full-stack software engineer building ASP.NET Core APIs, real-time systems and React + TypeScript front ends."
+    />
+    <meta property="og:title" content="Eslam Amin · Full-Stack Software Engineer" />
+    <meta property="og:description" content=".NET & React developer: scalable APIs, event-driven microservices and modern React UIs." />
+    <meta property="og:type" content="profile" />
+    <meta property="og:image" content="/images/og-image.jpg" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="theme-color" content="#2563EB" />
+    <link rel="preload" as="image" href="/images/eslam-portrait.webp" type="image/webp" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        if (localStorage.getItem('theme') === 'dark') document.documentElement.classList.add('dark')
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
